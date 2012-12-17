@@ -4,12 +4,262 @@
    Author's custom styles
    ========================================================================== */
 
+html, body
+{
+	background-color: #ffffff;
+}
 
+a:hover
+{
+    text-decoration: none;
+}
 
+@font-face {
+	font-family: aquarelle;
+	src: url('aquarelle.ttf');
+}
+@font-face {
+	font-family: Roland-Shadow;
+	src: url('Roland-Shadow.ttf');
+}
 
+@font-face {
+	font-family: Roland-Contour;
+	src: url('Roland-Contour.ttf');
+}
+@font-face {
+	font-family: Roland;
+	src: url('Roland.ttf');
+}
 
+#background
+{
+    background-color: #15689a;
+    background-image:url('../img/header1.png');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    padding-bottom: 14%;
+}
 
+#kyheader 
+{
+    font-family: aquarelle;
+    font-size: 80px;
+    margin-top: 50px;
+    width:112%;
+    margin-left: -60px;
+}
 
+.container
+{
+    position: relative;
+}
+
+#world
+{
+    width:auto;
+    position: absolute;
+    top: -20px;
+    left: -8.3%;
+}
+
+#kyheader
+	{text-align:center;
+	}
+#event1bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 70% 70%;
+	background-repeat:no-repeat;
+	height:150px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+	}		
+#event2bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 70% 70%;
+	background-repeat:no-repeat;
+	height:150px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+	}	
+#event3bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 70% 70%;
+	background-repeat:no-repeat;
+	height:150px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+	}		
+#event4bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 70% 70%;
+	background-repeat:no-repeat;
+	height:150px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+	}
+#event5bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 70% 70%;
+	background-repeat:no-repeat;
+	height:150px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+	}
+#event6bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 70% 70%;
+	background-repeat:no-repeat;
+	height:150px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+	}
+    
+#bottom
+{
+    background-image:url('../img/bedrock7.png');
+    background-size: 100% 80%;
+	background-repeat:no-repeat;
+	height:45%;
+	width:1362px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:bottom;
+    float:left;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    
+}
+
+#bottom-header
+{
+    font-family:Roland-Contour;
+    font-size:40px;
+    color: #005287;
+    margin-left:-50px;
+}
+
+#bottom-header:hover
+{
+    color: #013f67;
+}
+    
+#sponsor 
+{
+    font-family: Roland;
+    font-size: 20px;
+    background-image:url('../img/sponsor.png');
+    background-size: 100% 80%;
+	background-repeat:no-repeat;
+	height:130px;
+	width:230px;
+	background-position:bottom;
+    float:right;
+    margin-top:-50px;   
+}
+
+#sponsor-pan
+{
+    height: 390px;
+}
+
+#innerdiv
+{ 
+    position:relative; 
+    top:40%;
+}
+
+#login
+{
+    font-size: 20px;
+    background-image:url('../img/board.png');
+    background-size: 80% 65%;
+    height:90px;
+	width:110px;
+	background-repeat:no-repeat;
+    background-position:bottom;
+    padding-right:20px;
+    margin-top: -20px;
+}
+
+.modal
+{ 
+    background-color: #fff;
+    position: fixed !important;
+    padding: 10px;
+}
+
+.events
+{
+    font-family: Roland;
+    font-size:15px;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+    
+.tab-pane
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding:3%;
+    overflow-y:scroll;
+    text-align:left;
+    height: 330px;
+}
+
+.abubble
+{
+    color: black;
+}
+
+.span
+{
+    margin-left: 10px;
+}
+
+.nav a
+{
+    font-family: Roland;
+    font-size: 20px;
+}
+
+#Modal8
+{
+    width:400px;
+    height: 175px;
+    margin:-200px 0 0 -200px;
+}
+
+#login-form
+{
+    font-family: serif;
+    width:auto;
+    overflow:hidden;
+}
+
+#myModalLabel
+{
+    font-family:Roland;
+}
 
 
 
