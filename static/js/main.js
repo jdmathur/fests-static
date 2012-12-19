@@ -84,7 +84,7 @@ $(function() {
         },
         
         'start': function() {
-            this.navigate('/#pages/home/', true);
+            this.navigate('/', true);
         },
         'events': function(slug) {
             if (Events === null) {
