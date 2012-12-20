@@ -80,6 +80,7 @@ $(function() {
         routes: {
             '': 'start',
             'events/:slug/': 'events',
+            ':slug': 'events',
             'pages/:slug/': 'pages'
         },
         
