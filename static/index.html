@@ -78,10 +78,10 @@
 
                         <div class="span6" id="event1bubble">
                             <div id="innerdiv">
-                                <a class="abubble" href="#events/solo-natraj/" role="button" data-toggle="modal">Natraj</a>
+                                <a class="abubble" href="#events/natraj/" role="button" data-toggle="modal">Natraj</a>
          
                                 <!-- Modal -->
-                                <div id="natraj" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div id="events/natraj/" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                         <h3 id="myModalLabel">Natraj</h3>
@@ -268,13 +268,7 @@
         <script src="static/js/wave.js"></script>
         <script src="static/js/jqfloat.js"></script>
         <script src="static/js/float-item.js"></script>        
-        <script>
-            ($ "a[data-toggle=modal]").click ->
-            target = ($ @).attr('data-target')
-            url = ($ @).attr('href')
-            ($ target).load(url)
-        </script>
-        
+
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
