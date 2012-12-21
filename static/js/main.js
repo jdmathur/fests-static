@@ -1,4 +1,4 @@
-var apiUrl = 'http://pure-fjord-9921.herokuapp.com/api/vi';
+var apiUrl = 'http://pure-fjord-9921.herokuapp.com/api/v1';
 var Events = null, Pages = null, Sections = null, sView = null;
 
 function slugify(text) {
