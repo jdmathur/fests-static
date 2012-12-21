@@ -52,8 +52,8 @@ $(function() {
     });
     window.ContentsView = Backbone.View.extend({
         tagName: 'div',
-        className: 'span8',
-        template: '<p><%= content %><p>',
+        className: 'tab-pane',
+        template: '<%= content %>',
         
         render: function() {
             $(this.el).html(_.template(this.template, this.model.toJSON()));
