@@ -44,7 +44,7 @@ $(function() {
     
     window.TabsView = Backbone.View.extend({
         tagName: 'li',
-        template: '<a href="#<%= slugify(label) %>" data-toggle="tab"><%= label %></a>',
+        template: '<a href="#<%= slugify(label) %>"><%= label %></a>',
         render: function() {
             $(this.el).html(_.template(this.template, this.model.toJSON()));
             return this;
