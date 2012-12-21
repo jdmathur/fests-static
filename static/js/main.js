@@ -44,7 +44,7 @@ $(function() {
     
     window.TabsView = Backbone.View.extend({
         tagName: 'li',
-        template: '<a href="#<%= slugify(label)%>" data-toggle="pill"><%= label %></a>',
+        template: '<a href="#<%= slugify(label)%>" data-toggle="tab"><%= label %></a>',
         render: function() {
             $(this.el).html(_.template(this.template, this.model.toJSON()));
             return this;
@@ -52,7 +52,7 @@ $(function() {
     });
     window.ContentsView = Backbone.View.extend({
         tagName: 'div',
-        className: 'pill-pane',
+        className: 'tab-pane',
         template: '<%= content %>',
         
         render: function() {
@@ -65,13 +65,13 @@ $(function() {
             this.collection.bind('reset', this.render, this);
         },
         render: function() {
-            $("#content-pills-data").html('');
-            $("#content-pills").html('');
+            $("#content-tabs-data").html('');
+            $("#content-tabs").html('');
             _.each(this.collection.models, function(model) {
                 cV = new ContentsView({ 'model': model, 'id': slugify(model.get('label')) });
                 tV = new TabsView({ 'model': model });
-                $("#content-pills-data").append(cV.render().el);
-                $("#content-pills").append(tV.render().el);
+                $("#content-tabs-data").append(cV.render().el);
+                $("#content-tabs").append(tV.render().el);
             });
         }
     });

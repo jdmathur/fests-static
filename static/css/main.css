@@ -69,69 +69,99 @@ a:hover
 	}
 #event1bubble 
 	{background-image:url('../img/smpl-bubble1.png');
-    background-size: 70% 70%;
+    background-size: 80% 80%;
 	background-repeat:no-repeat;
-	height:150px;
-	width:150px;
+	height:120px;
+	width:120px;
 	text-align:center;
 	vertical-align:middle;
 	background-position:center;
     float:left;
+    margin-left: 20px;
 	}		
 #event2bubble 
 	{background-image:url('../img/smpl-bubble1.png');
-    background-size: 70% 70%;
+    background-size: 80% 80%;
 	background-repeat:no-repeat;
-	height:150px;
-	width:150px;
+	height:120px;
+	width:120px;
 	text-align:center;
 	vertical-align:middle;
 	background-position:center;
     float:left;
+    margin-left: 20px;
 	}	
 #event3bubble 
 	{background-image:url('../img/smpl-bubble1.png');
-    background-size: 70% 70%;
+    background-size: 80% 80%;
 	background-repeat:no-repeat;
-	height:150px;
-	width:150px;
+	height:120px;
+	width:120px;
 	text-align:center;
 	vertical-align:middle;
 	background-position:center;
     float:left;
+    margin-left: 20px;
 	}		
 #event4bubble 
 	{background-image:url('../img/smpl-bubble1.png');
-    background-size: 70% 70%;
+    background-size: 80% 80%;
 	background-repeat:no-repeat;
-	height:150px;
-	width:150px;
+	height:120px;
+	width:120px;
 	text-align:center;
 	vertical-align:middle;
 	background-position:center;
     float:left;
+    margin-left: 20px;
 	}
 #event5bubble 
 	{background-image:url('../img/smpl-bubble1.png');
-    background-size: 70% 70%;
+    background-size: 80% 80%;
 	background-repeat:no-repeat;
-	height:150px;
-	width:150px;
+	height:120px;
+	width:120px;
 	text-align:center;
 	vertical-align:middle;
 	background-position:center;
     float:left;
+    margin-left: 20px;
 	}
 #event6bubble 
 	{background-image:url('../img/smpl-bubble1.png');
-    background-size: 70% 70%;
+    background-size: 80% 80%;
 	background-repeat:no-repeat;
-	height:150px;
-	width:150px;
+	height:120px;
+	width:120px;
 	text-align:center;
 	vertical-align:middle;
 	background-position:center;
     float:left;
+    margin-left: 20px;
+	}
+#event7bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 80% 80%;
+	background-repeat:no-repeat;
+	height:120px;
+	width:120px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+    margin-left: 20px;
+	}
+#event8bubble 
+	{background-image:url('../img/smpl-bubble1.png');
+    background-size: 80% 80%;
+	background-repeat:no-repeat;
+	height:120px;
+	width:120px;
+	text-align:center;
+	vertical-align:middle;
+	background-position:center;
+    float:left;
+    margin-left: 20px;
 	}
     
 #bottom
@@ -214,7 +244,7 @@ a:hover
     font-family: Roland;
     font-size:15px;
     margin-top: 8%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
     
 .tab-pane
