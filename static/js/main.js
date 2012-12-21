@@ -44,7 +44,7 @@ $(function() {
     
     window.TabsView = Backbone.View.extend({
         tagName: 'li',
-        template: '<a href="#<%= slugify(label)%>" data-toggle="tab"><%= label %></a>',
+        template: '<a href="#<%= slugify(label)%>" data-toggle="pill"><%= label %></a>',
         render: function() {
             $(this.el).html(_.template(this.template, this.model.toJSON()));
             return this;
@@ -52,8 +52,8 @@ $(function() {
     });
     window.ContentsView = Backbone.View.extend({
         tagName: 'div',
-        className: 'tab-pane',
-        template: '<p><%= content %></p>',
+        className: 'pill-pane',
+        template: '<%= content %>',
         
         render: function() {
             $(this.el).html(_.template(this.template, this.model.toJSON()));
