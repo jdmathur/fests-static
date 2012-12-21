@@ -65,13 +65,13 @@ $(function() {
             this.collection.bind('reset', this.render, this);
         },
         render: function() {
-            $("#content-pills-data").html('');
-            $("#content-pills").html('');
+            $(".content-pills-data").html('');
+            $(".content-pills").html('');
             _.each(this.collection.models, function(model) {
                 cV = new ContentsView({ 'model': model, 'id': slugify(model.get('label')) });
                 tV = new TabsView({ 'model': model });
-                $("#content-pills-data").append(cV.render().el);
-                $("#content-pills").append(tV.render().el);
+                $(".content-pills-data").append(cV.render().el);
+                $(".content-pills").append(tV.render().el);
             });
         }
     });
