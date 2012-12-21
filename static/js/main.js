@@ -52,7 +52,7 @@ $(function() {
     });
     window.ContentsView = Backbone.View.extend({
         tagName: 'div',
-        template: '<p><%= content %></p>',
+        template: '<%= content %>',
         
         render: function() {
             $(this.el).html(_.template(this.template, this.model.toJSON()));
@@ -64,12 +64,12 @@ $(function() {
             this.collection.bind('reset', this.render, this);
         },
         render: function() {
-            $("#data").html('');
+            $("#content-tabs-data").html('');
             $("#content-tabs").html('');
             _.each(this.collection.models, function(model) {
                 cV = new ContentsView({ 'model': model, 'id': slugify(model.get('label')) });
                 tV = new TabsView({ 'model': model });
-                $("#data").append(cV.render().el);
+                $("#content-tabs-data").append(cV.render().el);
                 $("#content-tabs").append(tV.render().el);
             });
         }
