@@ -181,7 +181,7 @@ a:hover
     
 }
 
-#bottom-header
+#pronites
 {
     font-family:Roland-Contour;
     font-size:40px;
@@ -189,7 +189,7 @@ a:hover
     margin-left:-50px;
 }
 
-#bottom-header:hover
+#pronites:hover
 {
     color: #013f67;
 }
@@ -291,6 +291,10 @@ a:hover
     font-family:Roland;
 }
 
+.nav-tabs
+{
+    display: none;
+}
 
 
 
