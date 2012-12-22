@@ -62,8 +62,15 @@ $(document).ready(function(){
         });
         
         $(document).ready(function(){
+            $("#sponsors").click(function() {
+                //need the following to toggle
+                $("#sponsors1").css("display", "block");
+            });
+        });
+        
+        $(document).ready(function(){
             $(".close").click(function() {
                 //need the following to toggle
-                $("#pronites1, #cine-event1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1").css("display", "none");
+                $("#pronites1, #cine-event1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1").css("display", "none");
             });
         });
