@@ -15,8 +15,8 @@ a:hover
 }
 
 @font-face {
-	font-family: aquarelle;
-	src: url('aquarelle.ttf');
+	font-family: Aquarelle;
+	src: url('Aquarelle.ttf');
 }
 @font-face {
 	font-family: Roland-Shadow;
@@ -44,7 +44,7 @@ a:hover
 
 #kyheader 
 {
-    font-family: aquarelle;
+    font-family: Aquarelle;
     font-size: 80px;
     margin-top: 50px;
     width:112%;
@@ -296,6 +296,12 @@ a:hover
     color:#000;
 }
 
+#date
+{
+    font-size: 22px;
+    margin-left: 160px;
+    margin-top: 3px;
+}
 
 
 
