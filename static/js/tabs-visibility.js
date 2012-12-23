@@ -1,4 +1,12 @@
-$(document).ready(function(){
+        $(document).ready(function(){
+            $("#KY").click(function() {
+                //need the following to toggle
+                $("#KY1").css("display", "block");
+                $("#label").text("Kashiyatra");                
+            });
+        });
+        
+        $(document).ready(function(){
             $("#natraj").click(function() {
                 //need the following to toggle
                 $("#natraj1").css("display", "block");
@@ -57,7 +65,7 @@ $(document).ready(function(){
         $(document).ready(function(){
             $("#cine-events").click(function() {
                 //need the following to toggle
-                $("#cine-event1").css("display", "block");
+                $("#cine-events1").css("display", "block");
                 $("#label").text("Cine-Events");
             });
         });
@@ -81,6 +89,6 @@ $(document).ready(function(){
         $(document).ready(function(){
             $(".close").click(function() {
                 //need the following to toggle
-                $("#pronites1, #cine-event1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1").css("display", "none");
+                $("#pronites1, #cine-events1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1").css("display", "none");
             });
         });

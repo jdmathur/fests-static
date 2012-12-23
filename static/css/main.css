@@ -269,7 +269,7 @@ a:hover
 .nav a
 {
     font-family: Roland;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #Modal8
@@ -291,6 +291,10 @@ a:hover
     display: none;
 }
 
+#KY:hover
+{
+    color:#000;
+}
 
 
 
