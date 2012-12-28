@@ -254,7 +254,6 @@ a:hover
     overflow-y: scroll;
     text-align:left;
     height: 300px;
-    margin-left: 10px
 }
 
 .abubble
@@ -290,6 +289,11 @@ a:hover
 .nav-tabs
 {
     display: none;
+}
+
+.nav
+{
+    margin-left: 5px;
 }
 
 #KY:hover
