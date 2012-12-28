@@ -254,6 +254,7 @@ a:hover
     overflow-y: scroll;
     text-align:left;
     height: 300px;
+    margin-left: 10px
 }
 
 .abubble
