@@ -92,3 +92,10 @@
                 $("#pronites1, #cine-events1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1, #KY1").css("display", "none");
             });
         });
+        
+        $(document).ready(function(){
+            $(".modal-backdrop").click(function() {
+                //need the following to toggle
+                $("#pronites1, #cine-events1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1, #KY1").css("display", "none");
+            });
+        });
