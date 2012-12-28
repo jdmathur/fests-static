@@ -251,8 +251,9 @@ a:hover
 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding:3%;
-    overflow-y:auto;
+    overflow-y: scroll;
     text-align:left;
+    height: 100%;
 }
 
 .abubble
