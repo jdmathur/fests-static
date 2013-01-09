@@ -50,7 +50,7 @@
                                     </div>
                                     <div class="tab-content" id="event8-content">
                                         <div class="tab-pane active" id="login-form">
-                                            <iframe id="reisterframe" src="https://docs.google.com/spreadsheet/viewform?formkey=dDRfN3Joc0h2RmJmam9kVk9za1Qzbmc6MQ"></iframe>
+                                            <iframe id="registerframe" src="https://docs.google.com/spreadsheet/viewform?formkey=dDRfN3Joc0h2RmJmam9kVk9za1Qzbmc6MQ"></iframe>
                                         </div>
                                     </div>
                                 </div>					                      
@@ -61,7 +61,26 @@
                         
                         <div class="span6" id="sponsor">
                             <div id="innerdiv">
-                                <a class="abubble" href="#" data-target="#cine-event" role="button" data-toggle="modal" id="sponsors">Sponsors</a>
+                                <a class="abubble" href="#" data-target="#cine-event" role="button" data-toggle="modal" id="sponsors">Sponsors
+                                <div class="fadein1">
+                                <img src="static/img/1.jpg">
+                                <img src="static/img/2.jpg">
+                                <img src="static/img/5.jpg">
+                                <img src="static/img/6.jpg">
+                                <img src="static/img/7.jpg">
+                                <img src="static/img/8.jpg">
+                                <img src="static/img/9.jpg">
+                                <img src="static/img/10.jpg">
+                                <img src="static/img/11.jpg">
+                                <img src="static/img/12.jpg">
+                                <img src="static/img/13.jpg">
+                                <img src="static/img/14.jpg">
+                                <img src="static/img/15.jpg">
+                                <img src="static/img/16.jpg">
+                                <img src="static/img/17.jpg">
+                                <img src="static/img/18.jpg">
+                                <img src="static/img/19.jpg">
+                                </div></a>
                             </div>
                         </div>
                     </H1>
@@ -201,7 +220,17 @@
                                             </ul>
                                             
                                             <ul class="nav nav-tabs" id="sponsors1">
-                                                <li><a href="#events/spnsors/">Sponsors</a></li>
+                                                <li><a href="#events/sponsors/">Sponsors</a></li>
+                                                <li class="active"><a href="#">*</a></li>
+                                            </ul>
+                                            <!--this section added -->
+                                            <ul class="nav nav-tabs" id="mun1">
+                                                <li><a href="#events/mun/">IIT-BHU MUN</a></li>
+                                                <li class="active"><a href="#">*</a></li>
+                                            </ul>
+                                            
+                                            <ul class="nav nav-tabs" id="social1">
+                                                <li><a href="#events/social-initiative/">Social Initiative</a></li>
                                                 <li class="active"><a href="#">*</a></li>
                                             </ul>
                                             
@@ -225,7 +254,9 @@
             
             <div  id="bottom">
                 <div id="innerdiv">
-                    <a class="abubble" id="pronites" href="#" data-target="#cine-event" role="button" data-toggle="modal">Pronites</a>
+                    <a class="abubble under" id="social" href="#" data-target="#cine-event" role="button" data-toggle="modal">Social Initiative</a>
+                    <a class="abubble under" id="pronites" href="#" data-target="#cine-event" role="button" data-toggle="modal">Pronites</a>
+                    <a class="abubble under" id="mun" href="#" role="button">IIT-BHU MUN</a>
                 </div>
             </div>
 
@@ -242,7 +273,16 @@
         <script src="static/js/plugins.js"></script>
         <script src="static/js/main.js"></script>
         <script src="static/js/tabs-visibility.js"></script>
-
+        <script>
+                $(function(){
+            $('.fadein1 img:gt(0)').hide();
+            setInterval(function(){
+              $('.fadein1 :first-child').fadeOut()
+                 .next('img').fadeIn()
+                 .end().appendTo('.fadein1');}, 
+              3000);
+        });
+        </script>
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

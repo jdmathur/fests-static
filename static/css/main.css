@@ -163,7 +163,10 @@ a:hover
     float:left;
     margin-left: 20px;
 	}
-    
+#event8-content
+        {height:100%;
+    }
+        
 #bottom
 {
     background-image:url('../img/bedrock7.png');
@@ -181,17 +184,36 @@ a:hover
     
 }
 
-#pronites
+.under
 {
     font-family:Roland-Contour;
-    font-size:40px;
-    color: #005287;
-    margin-left:-50px;
+    font-size:30px ;
+    color: #005287 !important ;
+    margin-top: -20px;
+    
 }
 
-#pronites:hover
+.under:hover
 {
-    color: #013f67;
+    color: #013f67 !important ;
+}
+
+#pronites
+{
+    margin-left:120px;
+   
+}
+
+#social
+{
+    margin-left:-25px;
+    font-size:22px ;
+}
+
+#mun
+{
+    margin-left:145px;
+    font-size:25px ;
 }
     
 #sponsor 
@@ -205,7 +227,7 @@ a:hover
 	width:230px;
 	background-position:bottom;
     float:right;
-    margin-top:-150px;   
+    margin-top:-160px;   
 }
 
 #sponsor-pan
@@ -281,12 +303,13 @@ a:hover
 #Modal8
 {
     width:750px;
-    height: 600px;
-    margin:-300px 0 0 -200px;
+    height: 500px;
+    margin:-300px 0 0 -340px;
 }
 
 #login-form
 {
+    height:90%;
     font-family: serif;
     width:auto;
     overflow:hidden;
@@ -314,7 +337,16 @@ a:hover
     margin-top: 3px;
 }
 
-
+.fadein1
+{   
+     position:relative; width:100px; height:100px;
+}
+     
+.fadein1 img { 
+border-style:groove;
+    border-width:4px;
+    position:absolute; left:60px; top:34px;
+    }
 
 
 

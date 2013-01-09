@@ -87,9 +87,17 @@
         });
         
         $(document).ready(function(){
+            $("#social").click(function() {
+                //need the following to toggle
+                $("#social1").css("display", "block");
+                $("#label").text("Social Iniiative");
+            });
+        });
+        
+        $(document).ready(function(){
             $(".close").click(function() {
                 //need the following to toggle
-                $("#pronites1, #cine-events1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1, #KY1").css("display", "none");
+                $("#pronites1, #cine-events1, #enquizta1, #samvaad1, #crosswindz1, #toolika1, #abhinay1, #bandish1, #natraj1, #sponsors1, #KY1, #social1").css("display", "none");
                 $("#content-pills, #content-pills-data").html("");
             });
         });
