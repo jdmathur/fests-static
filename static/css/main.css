@@ -330,6 +330,15 @@ a:hover
     color:#000;
 }
 
+#clg
+{
+    font-family: Roland;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -55px;
+    padding-bottom: 10px;
+}
+
 #date
 {
     font-size: 22px;
