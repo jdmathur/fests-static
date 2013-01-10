@@ -1,6 +1,7 @@
         $(document).ready(function(){
             $("#KY").click(function() {
                 //need the following to toggle
+                
                 $("#KY1").css("display", "block");
                 $("#label").text("Kashiyatra");                
             });
@@ -16,6 +17,7 @@
         
         $(document).ready(function(){
             $("#bandish").click(function() {
+            
                 //need the following to toggle
                 $("#bandish1").css("display", "block");
                 $("#label").text("Bandish");                
@@ -90,7 +92,7 @@
             $("#social").click(function() {
                 //need the following to toggle
                 $("#social1").css("display", "block");
-                $("#label").text("Social Iniiative");
+                $("#label").text("Social Initiative");
             });
         });
         

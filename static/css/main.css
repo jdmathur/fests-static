@@ -240,7 +240,11 @@ a:hover
     position:relative; 
     top:40%;
 }
-
+#innerdiv2
+{
+    position:relative;
+    top:50%;
+}
 #login
 {
     font-size: 20px;
@@ -357,7 +361,98 @@ border-style:groove;
     position:absolute; left:60px; top:34px;
     }
 
+#gallery
+{
+    margin-right:1030px;
+    font-size:22px;
+    /* Safari */
+    -webkit-transform: rotate(-30deg);
 
+    /* Firefox */
+    -moz-transform: rotate(-30deg);
 
+    /* IE */
+    -ms-transform: rotate(-30deg);
 
+    /* Opera */
+    -o-transform: rotate(-30deg);
 
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=-0.5, M12=-0.86, M21=0.86, M22=-0.5, SizingMethod="auto expand");
+
+}
+
+    
+#contacts
+{
+    margin-left:-90px;
+    font-size:22px;
+    /* Safari */
+    -webkit-transform: rotate(30deg);
+
+    /* Firefox */
+    -moz-transform: rotate(30deg);
+
+    /* IE */
+    -ms-transform: rotate(30deg);
+
+    /* Opera */
+    -o-transform: rotate(30deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=-0.86, M21=0.86, M22=0.5, SizingMethod="auto expand");
+}
+
+#contacts-body
+{
+    height: 450px;
+    overflow-y:scroll;
+}
+#sponsor-body
+{
+ height: 450px;
+    overflow-y:scroll;
+}
+#contact-list
+{
+    list-style-type:none;
+}
+
+#contact-list li
+{
+    display: inline;
+}
+
+.contact-item 
+{
+    list-style-type: none;
+    width: 30%;
+    display:inline;
+    float:left;
+    margin-top: 20px;
+}
+
+.contact-item  li
+{
+    list-style-type: none;
+    display:list-item !important;
+}
+
+#loading
+{display:none;
+vertical-align:middle;
+margin-left:auto;
+margin-right:auto;
+height:100px;
+width:100px;
+}
+
+#sponsor-list
+{
+    list-style-type:none;
+}
+
+#sponsor-list li
+{
+    display: inline;
+}

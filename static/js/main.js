@@ -91,6 +91,8 @@ $(function() {
                 Events = new EventsCollection();
             }
             if (!_.find(Events.models, function(model) {return model.get('slug') === slug;})) {
+            $("#content-pills, #content-pills-data").html("");
+                $('#loading').css('display','block');
                 Events.fetch({
                     add: true,
                     dataType: 'jsonp',
@@ -98,12 +100,19 @@ $(function() {
                         'slug': slug
                     },
                     success: function(data) {
+                   
                         updateSections(slug, Events);
+                         $('#loading').css('display','none');
+                 //        $('#content-pills li:first-child').addClass('active');
+                      
                     }
                 });
             }
             else {
+             $('#loading').css('display','none');
                 updateSections(slug, Events);
+               // $('#content-pills li:first-child').addClass('active');
+               
             }
         },
         'pages': function(slug) {
@@ -111,6 +120,7 @@ $(function() {
                 Pages = new PagesCollection();
             }
             if (!_.find(Pages.models, function(model) {return model.get('slug') === slug;})) {
+                
                 Pages.fetch({
                     add: true,
                     dataType: 'jsonp',
